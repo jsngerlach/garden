@@ -1,0 +1,140 @@
+/*Nav-Bar*/
+.nav-bar {
+  width: 100% ;
+  height: auto;
+  background-color: #02961e;
+  color: #fff;
+  padding: 0px;
+}
+
+.nav-btn {
+  font-size: 40px;
+  border-right: solid 2px #fff;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-btn:hover {
+  color: #f5ef5b;
+}
+
+.nav-btn.active {
+  background-color: #fff;
+  color: #02961e;
+}
+
+.register-nav-btn {
+  border: none;
+}
+
+/*Header*/
+.map-header, .profile-header, .forum-header, .register-header {
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  font-size:  75px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 125px;
+  margin-bottom: 50px;
+}
+
+.map-header {
+  background-image: url('./images/map-header.jpg');
+}
+
+.profile-header {
+  background-image: url('./images/profile-header.jpg');
+}
+
+.forum-header {
+  background-image: url('./images/forum-header.jpg');
+}
+
+.register-header {
+  background-image: url('./images/register-header.jpg');
+}
+
+/*Map*/
+
+/*Profile*/
+.avatar {
+  background-image: url('./images/avatar.png');
+  background-position: center;
+  background-size: cover;
+  border: solid 3px #fff;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: -125px;
+}
+
+.name {
+  margin: 25px 0px;
+  font-size: 25px;
+}
+
+.bio-container {
+  padding: 25px 50px;
+  border: solid 1px  #02961e;
+  border-radius: 5px;
+  min-height: 150px;
+}
+
+.profile-info-title {
+  font-size: 35px;
+  color: #02961e;
+  font-weight: 600;
+  margin-left: -15px;
+}
+
+.bio {
+  font-size: 20px;
+
+}
+
+/*Forum*/
+
+/*Regieter-Login*/
+
+.field-title {
+  font-size: 40px;
+  color: #02961e;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.register-field {
+ border-right: solid 1px #aaa;
+}
+
+.input-field {
+  width: 50%;
+  height: calc(auto + 5px);
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  margin: 35px auto;
+  padding: 5px;
+  display: block;
+}
+
+.field-btn {
+  height: auto;
+  width: 150px;
+  margin: 50px auto;
+  font-size: 25px;
+  color: #02961e;
+  background-color: #fff;
+  border: solid 1px #02961e;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.login-btn {
+  margin-top: 117px;
+}
