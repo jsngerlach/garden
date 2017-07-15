@@ -73,27 +73,31 @@
 }
 
 .name {
-  margin: 25px 0px;
+  margin: 50px 0px;
   font-size: 25px;
+  text-decoration: underline;
+  font-weight: 600;
+  color: #02961e
 }
 
 .bio-container {
   padding: 25px 50px;
   border: solid 1px  #02961e;
   border-radius: 5px;
+  background-color: #02961e;
   min-height: 150px;
 }
 
 .profile-info-title {
   font-size: 35px;
-  color: #02961e;
+  color: #fff;
   font-weight: 600;
   margin-left: -15px;
 }
 
 .bio {
   font-size: 20px;
-
+  color: #fff;
 }
 
 /*Forum*/
