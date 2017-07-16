@@ -101,6 +101,10 @@
 }
 
 /*Forum*/
+.forum-area {
+  resize: none;
+  min-height: 150px;
+}
 
 /*Regieter-Login*/
 
