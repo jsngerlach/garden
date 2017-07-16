@@ -7,7 +7,7 @@ class ForumHeader extends React.Component {
 
   render(){
     return(
-      <div className='forum-header'>Life's a Garden... Dig It!</div>
+      <div className='forum-header'>Garden Forum</div>
     )
   }
 }
