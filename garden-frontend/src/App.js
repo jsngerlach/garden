@@ -16,7 +16,7 @@ class App extends Component {
     this.pageSelector = this.pageSelector.bind(this);
 
     this.state = {
-      pageState: 'forum'
+      pageState: 'profile'
     }
   }
 

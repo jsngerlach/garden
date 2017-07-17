@@ -88,11 +88,18 @@
   min-height: 150px;
 }
 
-.profile-info-title {
+.garden-info-title, .profile-info-title {
   font-size: 35px;
-  color: #fff;
   font-weight: 600;
   margin-left: -15px;
+}
+
+.profile-info-title{
+  color: #fff;
+}
+
+.garden-info-title {
+  color: #02931e;
 }
 
 .bio {
@@ -100,14 +107,39 @@
   color: #fff;
 }
 
+.user-garden-container {
+  border: solid 1px #02931e;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 25px 0px;
+  height: auto;
+
+}
+.garden-gallery {
+  height: 100px;
+}
+
+.garden-info {
+  font-size: 20px;
+  color: #02931e;
+}
+
 /*Forum*/
 .forum-area {
   resize: none;
   min-height: 150px;
+  margin-left: 33%;
+  border: solid 1px #02961e;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #02961e;
+}
+
+.forum-btn {
+
 }
 
 /*Regieter-Login*/
-
 .field-title {
   font-size: 40px;
   color: #02961e;

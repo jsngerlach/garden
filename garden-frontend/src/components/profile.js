@@ -24,8 +24,11 @@ class Profile extends React.Component {
             <div className='col-xs-12 garden-gallery'>
               Images
             </div>
+            <div className='col-xs-12 garden-info-title'>
+              Description:
+            </div>
             <div className='col-xs-12 garden-info'>
-              Description
+              Rose Garden with ten different types of roses and twenty rose plants (two of each).
             </div>
           </div>
           <div className='col-sm-2'>
