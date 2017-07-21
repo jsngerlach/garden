@@ -54,6 +54,12 @@ class App extends Component {
           <div onClick={(e)=> {this.pageSelector(e, 'profile')}} className={this.state.pageState == 'profile' ? 'col-xs-3 nav-btn active' : 'col-xs-3 nav-btn'}>Profile</div>
           <div onClick={(e)=> {this.pageSelector(e, 'forum')}} className={this.state.pageState == 'forum' ? 'col-xs-3 nav-btn active' : 'col-xs-3 nav-btn'}>Forum</div>
           <div onClick={(e)=> {this.pageSelector(e, 'register')}} className={this.state.pageState == 'register' ? 'col-xs-3 nav-btn active register-nav-btn' : 'col-xs-3 nav-btn register-nav-btn'}>Register / Log In</div>
+
+          {/* Mobile buttons */}
+          <div onClick={(e)=> {this.pageSelector(e, 'map')}} className={this.state.pageState == 'map' ? 'col-xs-12 mobile-nav-btn active' : 'col-xs-12 mobile-nav-btn'}>Map</div>
+          <div onClick={(e)=> {this.pageSelector(e, 'profile')}} className={this.state.pageState == 'profile' ? 'col-xs-12 mobile-nav-btn active' : 'col-xs-12 mobile-nav-btn'}>Profile</div>
+          <div onClick={(e)=> {this.pageSelector(e, 'forum')}} className={this.state.pageState == 'forum' ? 'col-xs-12 mobile-nav-btn active' : 'col-xs-12 mobile-nav-btn'}>Forum</div>
+          <div onClick={(e)=> {this.pageSelector(e, 'register')}} className={this.state.pageState == 'register' ? 'col-xs-12 mobile-nav-btn active register-nav-btn' : 'col-xs-12 mobile-nav-btn register-nav-btn'}>Register / Log In</div>
         </div>
         {header}
         {selectedPage}

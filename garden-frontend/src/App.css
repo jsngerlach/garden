@@ -19,6 +19,10 @@
   color: #f5ef5b;
 }
 
+.mobile-nav-btn {
+  display: none;
+}
+
 .nav-btn.active {
   background-color: #fff;
   color: #02961e;
@@ -177,4 +181,22 @@
 
 .login-btn {
   margin-top: 117px;
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+  .nav-btn {
+    display: none;
+  }
+
+  .mobile-nav-btn {
+    display: inline-block;
+    font-size: 25px;
+  }
+
+  .mobile-nav-btn.active {
+    background-color: #fff;
+    color: #02961e;
+  }
+
 }
